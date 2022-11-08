@@ -1,0 +1,66 @@
+@import URL('https://fonts.googleapis.com/css2?family=Monserrat&dislay=swap');
+
+body {
+    font-family: 'Motserrat', sans-serif;
+    overflow-x: hidden;
+}
+#menu li > a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+#menu form > button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.carrousel-inner {
+    max-height: 39rem;
+}
+
+@media (max-width:768px){
+    #intro, #equipo {
+        width: 90% !important;
+    }
+    #equipo p {
+        display: none;
+    }
+    .servicio-fila {
+        width: 100% !important;
+        text-align: center;
+    }
+}
+#bg-contacto {
+    position: relative;
+    top: -130px;
+}
+#seccion-contacto {
+    background-color:#1b2a4e ;
+    min-height: 500px;
+    position: relative;
+}
+
+footer {
+    background: #1b2a4e;
+    min-height: 100px;
+}
+footer p {
+    color: #f3f3f3;
+    text-align: center;
+}
+#iconos i {
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3;
+}
+@media (max-width:576px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+
+    }
+#bg-contacto {
+    top: -110px;
+
+} 
+}
